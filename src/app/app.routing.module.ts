@@ -4,6 +4,7 @@ import { RouterModule, Routes } from "@angular/router";
 import { CursosComponent } from "./dashboard/cursos/cursos.component";
 import { TurmasComponent } from "./dashboard/turmas/turmas.component";
 import { HomeComponent } from "./home/home.component";
+import { LoginComponent } from "./home/login/login.component";
 
 const routes: Routes = [
   { path: "", pathMatch: "full", redirectTo: "home" },
@@ -11,6 +12,7 @@ const routes: Routes = [
   { path: "cursos", component: CursosComponent },
   { path: "turmas", component: TurmasComponent },
   { path: "main", component: MainPageComponent },
+  { path: "login", component: LoginComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
