@@ -6,6 +6,7 @@ import { CoreModule } from "../core/core.module";
 import { MainPageModule } from "./main-page/main-page.module";
 import { TplataformaComponent } from './tplataforma/tplataforma.component';
 import { AcrobatPlatformaComponent } from './acrobat-platforma/acrobat-platforma.component';
+import { MoodlePlataformaComponent } from './moodle-plataforma/moodle-plataforma.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { AcrobatPlatformaComponent } from './acrobat-platforma/acrobat-platforma
     RouterModule,
     MainPageModule,
   ],
-  declarations: [TplataformaComponent, AcrobatPlatformaComponent],
+  declarations: [TplataformaComponent, AcrobatPlatformaComponent, MoodlePlataformaComponent],
 })
 export class DashboardModule {}
