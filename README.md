@@ -14,6 +14,7 @@ O projeto será dividido nas seguintes páginas:
 - Cursos
 - Turmas
 - Alunos
+- Instrutores
 
 ## Frameworks e linguagens utilizadas
 
